@@ -1,0 +1,118 @@
+Example of the lowest fitness schedule that I could get.  Includes fitness calculation data and manual hard-rule checking.
+
+Sum from unused seats: -240
+Professor Bilitski bonus from duplicate rooms: 10
+Professor Bilitski penalty for large gaps 0
+Professor Bilitski penalty for consecutive classes:0
+Professor Ohl bonus from duplicate rooms: 15
+Professor Ohl penalty for large gaps 0
+Professor Ohl penalty for consecutive classes:0
+Professor Sandro bonus from duplicate rooms: 0
+Professor Sandro penalty for large gaps 0
+Professor Sandro penalty for consecutive classes:0
+Professor Mr xxx bonus from duplicate rooms: 5
+Professor Mr xxx penalty for large gaps 0
+Professor Mr xxx penalty for consecutive classes:0
+Professor Frederick bonus from duplicate rooms: 0
+Professor Frederick penalty for large gaps 0
+Professor Frederick penalty for consecutive classes:0
+Professor Peter bonus from duplicate rooms: 0
+Professor Peter penalty for large gaps 0
+Professor Peter penalty for consecutive classes:0
+Professor Brian bonus from duplicate rooms: 0
+Professor Brian penalty for large gaps 0
+Professor Brian penalty for consecutive classes:0
+Professor Meg bonus from duplicate rooms: 10
+Professor Meg penalty for large gaps 0
+Professor Meg penalty for consecutive classes:0
+Professor Stewie bonus from duplicate rooms: 5
+Professor Stewie penalty for large gaps 0
+Professor Stewie penalty for consecutive classes:0
+Professor Glen bonus from duplicate rooms: 5
+Professor Glen penalty for large gaps 0
+Professor Glen penalty for consecutive classes:0
+
+--------------------------------------------------------------------
+|                   Schedule with fitness: -190                    |
+|                        from generation 96                        |
+--------------------------------------------------------------------
+| CRN | Course  | Professor | Size | Multimedia | Room      | Time |
+--------------------------------------------------------------------
+| 16  | Soc100  | Meg       | 45   | true       | BL138     | 1    |
+| 17  | Soc100  | Meg       | 40   | true       | BL138     | 10   |
+| 6   | cs015   | Sandro    | 35   | true       | BL138     | 12   |
+| 18  | Soc100  | Meg       | 35   | true       | BL138     | 9    |
+| 1   | cs456   | Bilitski  | 20   | true       | KR206     | 2    |
+| 2   | cs456   | Bilitski  | 20   | true       | KR206     | 12   |
+| 4   | cs455   | Ohl       | 20   | true       | KR206     | 1    |
+| 5   | cs455   | Ohl       | 20   | true       | KR206     | 3    |
+| 24  | cs045   | Ohl       | 20   | true       | KR206     | 9    |
+| 25  | cs045   | Ohl       | 20   | true       | KR206     | 11   |
+| 26  | cs015   | Sandro    | 20   | true       | BL134     | 3    |
+| 3   | cs1783  | Bilitski  | 15   | true       | KR206     | 10   |
+| 19  | CS047   | Stewie    | 15   | true       | BL134     | 1    |
+| 20  | CS047   | Stewie    | 15   | true       | BL134     | 2    |
+| 15  | math002 | Brian     | 60   | false      | ES100     | 10   |
+| 12  | math001 | Peter     | 60   | false      | ES100     | 1    |
+| 14  | math002 | Brian     | 50   | false      | BL138     | 2    |
+| 11  | math001 | Peter     | 50   | false      | BL138     | 11   |
+| 10  | math001 | Peter     | 40   | false      | KR224     | 2    |
+| 13  | math002 | Brian     | 40   | false      | KR224     | 11   |
+| 8   | cs015   | Mr xxx    | 35   | false      | Biddle123 | 3    |
+| 7   | cs015   | Mr xxx    | 35   | false      | Biddle123 | 12   |
+| 22  | PSY200  | Glen      | 35   | false      | Biddle123 | 1    |
+| 9   | cs015   | Frederick | 35   | false      | Biddle123 | 10   |
+| 21  | PSY200  | Glen      | 30   | false      | BL134     | 12   |
+| 23  | PSY200  | Glen      | 30   | false      | BL134     | 10   |
+--------------------------------------------------------------------
+
+--------------------------------------
+ROOM TIME USAGE
+
+BL134     - 3, 1, 2, 12, 10
+BL138     - 1, 10, 12, 9, 2, 11
+KR224     - 2, 11
+KR206     - 2, 12, 1, 3, 9, 11, 10
+Biddle123 - 10, 12, 1, 3
+Biddle205 - NONE
+ES100     - 10, 1
+
+VALID, NO DUPLICATE TIMES
+
+--------------------------------------
+PROFESSOR TIME USAGE
+
+Meg       - 1, 10, 9
+Sandro    - 12, 3
+Bilitski  - 2, 12, 10
+Ohl       - 1, 3, 9, 11
+Stewie    - 1, 2
+Brian     - 10, 2, 11
+Peter     - 1, 11, 2
+Mr xxx    - 3, 12
+Glen      - 1, 12, 10
+Frederick - 10
+
+VALID, NO DUPLICATE TIMES
+
+--------------------------------------
+COURSE MULTIMEDIA FULFILLED
+{CRN req multi : room : room has multi}
+
+1  - KR206 YES
+2  - KR206 YES
+3  - KR206 YES
+4  - KR206 YES
+5  - KR206 YES
+6  - BL138 YES
+16 - BL138 YES
+17 - BL138 YES
+18 - BL138 YES
+19 - BL134 YES
+20 - BL134 YES
+24 - KR206 YES
+25 - KR206 YES
+26 - BL134 YES
+
+VALID, ALL MULTIMEDIA REQUIREMENTS
+	FULFILLED

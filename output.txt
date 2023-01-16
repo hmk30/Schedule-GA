@@ -1,0 +1,196 @@
+sample output from issuing the following command:
+$ javac *.java && java ga >> output.txt &
+
+
+=======================================================================
+
+
+Using default args...
+
+New best found in generation 0 with fitness: -565
+New best found in generation 0 with fitness: -540
+New best found in generation 0 with fitness: -535
+New best found in generation 0 with fitness: -440
+generation: 1
+generation: 2
+generation: 3
+New best found in generation 3 with fitness: -400
+generation: 4
+New best found in generation 4 with fitness: -385
+generation: 5
+New best found in generation 5 with fitness: -350
+generation: 6
+generation: 7
+New best found in generation 7 with fitness: -345
+New best found in generation 7 with fitness: -335
+generation: 8
+generation: 9
+generation: 10
+New best found in generation 10 with fitness: -325
+generation: 11
+generation: 12
+generation: 13
+New best found in generation 13 with fitness: -315
+New best found in generation 13 with fitness: -310
+generation: 14
+generation: 15
+generation: 16
+New best found in generation 16 with fitness: -300
+generation: 17
+generation: 18
+generation: 19
+generation: 20
+New best found in generation 20 with fitness: -290
+generation: 21
+generation: 22
+generation: 23
+generation: 24
+generation: 25
+generation: 26
+generation: 27
+New best found in generation 27 with fitness: -285
+generation: 28
+generation: 29
+New best found in generation 29 with fitness: -280
+generation: 30
+generation: 31
+generation: 32
+generation: 33
+generation: 34
+generation: 35
+generation: 36
+New best found in generation 36 with fitness: -275
+generation: 37
+New best found in generation 37 with fitness: -270
+generation: 38
+generation: 39
+New best found in generation 39 with fitness: -225
+generation: 40
+New best found in generation 40 with fitness: -220
+generation: 41
+generation: 42
+generation: 43
+New best found in generation 43 with fitness: -215
+generation: 44
+generation: 45
+generation: 46
+generation: 47
+generation: 48
+generation: 49
+generation: 50
+generation: 51
+generation: 52
+generation: 53
+generation: 54
+New best found in generation 54 with fitness: -210
+generation: 55
+generation: 56
+generation: 57
+generation: 58
+generation: 59
+generation: 60
+generation: 61
+New best found in generation 61 with fitness: -195
+generation: 62
+generation: 63
+generation: 64
+generation: 65
+generation: 66
+generation: 67
+generation: 68
+generation: 69
+generation: 70
+generation: 71
+generation: 72
+generation: 73
+generation: 74
+generation: 75
+generation: 76
+generation: 77
+generation: 78
+generation: 79
+generation: 80
+generation: 81
+generation: 82
+generation: 83
+generation: 84
+generation: 85
+generation: 86
+generation: 87
+generation: 88
+generation: 89
+generation: 90
+generation: 91
+generation: 92
+generation: 93
+generation: 94
+generation: 95
+generation: 96
+generation: 97
+generation: 98
+generation: 99
+************* BEST *************
+Sum from unused seats: -240
+Professor Bilitski bonus from duplicate rooms: 10
+Professor Bilitski penalty for large gaps 0
+Professor Bilitski penalty for consecutive classes:0
+Professor Ohl bonus from duplicate rooms: 10
+Professor Ohl penalty for large gaps 0
+Professor Ohl penalty for consecutive classes:0
+Professor Sandro bonus from duplicate rooms: 0
+Professor Sandro penalty for large gaps 0
+Professor Sandro penalty for consecutive classes:0
+Professor Mr xxx bonus from duplicate rooms: 5
+Professor Mr xxx penalty for large gaps 0
+Professor Mr xxx penalty for consecutive classes:0
+Professor Frederick bonus from duplicate rooms: 0
+Professor Frederick penalty for large gaps 0
+Professor Frederick penalty for consecutive classes:0
+Professor Peter bonus from duplicate rooms: 0
+Professor Peter penalty for large gaps 0
+Professor Peter penalty for consecutive classes:0
+Professor Brian bonus from duplicate rooms: 0
+Professor Brian penalty for large gaps 0
+Professor Brian penalty for consecutive classes:0
+Professor Meg bonus from duplicate rooms: 10
+Professor Meg penalty for large gaps 0
+Professor Meg penalty for consecutive classes:0
+Professor Stewie bonus from duplicate rooms: 5
+Professor Stewie penalty for large gaps 0
+Professor Stewie penalty for consecutive classes:0
+Professor Glen bonus from duplicate rooms: 5
+Professor Glen penalty for large gaps 0
+Professor Glen penalty for consecutive classes:0
+--------------------------------------------------------------------
+|                   Schedule with fitness: -195                    |
+|                        from generation 61                        |
+--------------------------------------------------------------------
+| CRN | Course  | Professor | Size | Multimedia | Room      | Time |
+--------------------------------------------------------------------
+| 16  | Soc100  | Meg       | 45   | true       | BL138     | 11   |
+| 17  | Soc100  | Meg       | 40   | true       | BL138     | 3    |
+| 6   | cs015   | Sandro    | 35   | true       | BL138     | 2    |
+| 18  | Soc100  | Meg       | 35   | true       | BL138     | 12   |
+| 1   | cs456   | Bilitski  | 20   | true       | BL134     | 9    |
+| 2   | cs456   | Bilitski  | 20   | true       | BL134     | 12   |
+| 4   | cs455   | Ohl       | 20   | true       | KR206     | 1    |
+| 5   | cs455   | Ohl       | 20   | true       | KR206     | 9    |
+| 24  | cs045   | Ohl       | 20   | true       | KR206     | 3    |
+| 25  | cs045   | Ohl       | 20   | true       | BL134     | 10   |
+| 26  | cs015   | Sandro    | 20   | true       | KR206     | 11   |
+| 3   | cs1783  | Bilitski  | 15   | true       | BL134     | 2    |
+| 19  | CS047   | Stewie    | 15   | true       | BL134     | 11   |
+| 20  | CS047   | Stewie    | 15   | true       | BL134     | 1    |
+| 15  | math002 | Brian     | 60   | false      | ES100     | 3    |
+| 12  | math001 | Peter     | 60   | false      | ES100     | 12   |
+| 14  | math002 | Brian     | 50   | false      | BL138     | 9    |
+| 11  | math001 | Peter     | 50   | false      | BL138     | 10   |
+| 10  | math001 | Peter     | 40   | false      | KR224     | 2    |
+| 13  | math002 | Brian     | 40   | false      | KR224     | 12   |
+| 8   | cs015   | Mr xxx    | 35   | false      | Biddle123 | 10   |
+| 7   | cs015   | Mr xxx    | 35   | false      | Biddle123 | 12   |
+| 22  | PSY200  | Glen      | 35   | false      | Biddle123 | 1    |
+| 9   | cs015   | Frederick | 35   | false      | Biddle123 | 3    |
+| 21  | PSY200  | Glen      | 30   | false      | KR206     | 10   |
+| 23  | PSY200  | Glen      | 30   | false      | KR206     | 12   |
+--------------------------------------------------------------------
